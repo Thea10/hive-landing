@@ -126,7 +126,7 @@ const More = () => {
     <div>
       <Fade>
         <header className="container-fluid row align-items-center justify-content-center justify-con px-2 px-md-4 mx-0">
-          <div className="col-md-7 col-lg-4 p-0 ml-xl-5 text-md-left">
+          <div className="col-md-7 col-lg-4 p-0  my-5 my-lg-0 ml-xl-5 text-md-left">
             <Fade direction="left" delay={1000}>
               <h6 className="headText"> VIDEO EXPERIENCE PLATFORM </h6>
 
@@ -141,7 +141,7 @@ const More = () => {
                 100,000.
               </h5>
 
-              <div className="row align-items-center  mx-0">
+              <div className="row align-items-center justify-content-center justify-content-md-start mx-0">
                   <button className="btn btn-orange">Book a demo</button>
                   <NavLink className="ml-4" to="/">
                     Home
