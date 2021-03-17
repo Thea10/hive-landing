@@ -102,9 +102,9 @@ const Footer = () => {
         <div className="row mx-0 px-3 px-md-5 mb-5 justify-content-between">
           <Fade direction="up" delay={3000}>
             <div className="copy mb-3">
-              &copy {new Date().getFullYear()} Hive Streaming. All Rights
-              Reserved.
-            </div>
+            © {new Date().getFullYear()} Hive Streaming. All Rights
+              Reserved. 
+            </div>  
 
             <div className="mb-3">
               <span className="copy"> Terms & Conditions </span>
