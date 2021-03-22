@@ -31,6 +31,8 @@
   background-color: $background-light;
   color: $light-color;
   overflow-x: hidden;
+  transition: background-color 1.5s cubic-bezier(0.65, 0.05, 0.36, 1);
+
 
   header {
     background-color: $card-dark;
